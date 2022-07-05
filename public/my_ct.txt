@@ -1,0 +1,5 @@
+# Color table file C:/Users/msan223/Documents/Segmentation-artery-label_1_ColorTable.ctbl
+# 2 values
+0 Background 0 0 0 0
+# 1 artery 128 174 128 255
+1 artery 0 255 0 255

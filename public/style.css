@@ -1,0 +1,241 @@
+html,body
+{
+  position: relative;
+  /* margin: auto; */
+  height:100%;
+  width:100%;
+  overflow: hidden;
+  /* display: flex; */
+  /* font-family:Sans-serif;
+  font-size: 16px;
+  color: #666666;
+  background: #ffffff; */
+
+}
+
+#threeD
+{
+  background: black;
+  /*position:absolute; will cause the main-nav height to not match */
+  height:100%;
+  width:60%;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+
+#twoD
+{
+  background: black;
+  /*position:absolute; will cause the main-nav height to not match */
+  height:100%;
+  width:19%;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#SliceX
+{
+  background: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33%;
+  width:100%;
+  float:left;
+  /* Border-style: none;/* dotted line*/ */
+  overflow: hidden;
+  /* text-align: center; */
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  box-sizing: border-box;
+}
+
+#TextX
+{
+  background: black;
+  position: absolute;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-height:0%;
+  min-width:0%;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-size: 100%;
+  float:left;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+
+#SliceY
+{
+  background: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33%;
+  width:100%;
+  float:left;
+  /* Border-style: none;/* dotted line*/ */
+  overflow: hidden;
+  /* text-align: center; */
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+  border-left: 5px solid green;
+  border-right: 5px solid green;
+  box-sizing: border-box;
+}
+
+#TextY
+{
+  background: black;
+  position: absolute;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-height:0%;
+  min-width:0%;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-size: 100%;
+  float:left;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+
+#SliceZ
+{
+  background: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33%;
+  width:100%;
+  float:left;
+  /* Border-style: none;/* dotted line*/ */
+  overflow: hidden;
+  /* text-align: center; */
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  box-sizing: border-box;
+}
+
+#TextZ
+{
+  background: black;
+  position: absolute;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-height:0%;
+  min-width:0%;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-size: 100%;
+  float:left;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+
+#Metrics
+{
+  background: black;
+  /*position:absolute; will cause the main-nav height to not match */
+  height:100%;
+  width:19%;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#MetricsX
+{
+  background: black;
+  /*position:absolute; will cause the main-nav height to not match */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33%;
+  width:100%;
+  float:left;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  text-align: center;
+  /* resize: auto; */
+  box-sizing: border-box;
+}
+
+#MetricsY
+{
+  background: black;
+  /*position:absolute; will cause the main-nav height to not match */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33%;
+  width:100%;
+  float:left;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  text-align: center;
+  /* resize: auto; */
+  box-sizing: border-box;
+}
+
+#MetricsZ
+{
+  background: black;
+  /*position:absolute; will cause the main-nav height to not match */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:33%;
+  width:100%;
+  float:left;
+  Border-style: none;/* dotted line*/
+  overflow: hidden;
+  text-align: center;
+  /* resize: auto; */
+  box-sizing: border-box;
+}
+
+#gui
+{
+  position: absolute;
+  /* margin-top: 100px; */
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+path.domain  {
+  stroke: white;
+}
+ .tick text {
+  fill:white
+}
